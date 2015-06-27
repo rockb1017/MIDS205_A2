@@ -12,14 +12,14 @@ from boto.s3.connection import S3Connection
 from boto.s3.key import Key
 urllib3.disable_warnings()
 
-conn = S3Connection('AKIAJZGVFFBC3QQNHLYQ', 'QmNI2mZ2gx+/ANxeLMM/GaW4/2mAN7kT2NO3Z1mp')
-bucket= conn.get_bucket('rockbaek-205-assig2')
+conn = S3Connection('', '')
+bucket= conn.get_bucket('')
 
-consumer_key = "oLxbLGmNxm1Ut8HBYOf5Cq7wy";
-consumer_secret = "oG0oAjU6J3Pl5NXTQGExQF1qt0H9K6hJW11uFcAfI8hPMZuwYS";
+consumer_key = "";
+consumer_secret = "";
 
-access_token = "321815250-XE8ijM357JHkRXOJTW5yU6jg2EOncLFIGZqKZYSF";
-access_token_secret = "6whVTm1HMkwxDik0oCiIk8FOA1XLxvqj7NMerIVsLpOCd";
+access_token = "";
+access_token_secret = "";
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
